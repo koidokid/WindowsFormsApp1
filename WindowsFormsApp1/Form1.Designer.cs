@@ -44,6 +44,7 @@
 			this.textBox4 = new System.Windows.Forms.TextBox();
 			this.button2 = new System.Windows.Forms.Button();
 			this.label5 = new System.Windows.Forms.Label();
+			this.label6 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// listView1
@@ -179,11 +180,22 @@
 			this.label5.Text = "label5";
 			this.label5.Click += new System.EventHandler(this.label5_Click);
 			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Location = new System.Drawing.Point(86, 356);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(38, 12);
+			this.label6.TabIndex = 12;
+			this.label6.Text = "label6";
+			this.label6.Click += new System.EventHandler(this.label6_Click);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.label6);
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.label4);
@@ -221,6 +233,7 @@
 		private System.Windows.Forms.TextBox textBox4;
 		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Label label5;
+		private System.Windows.Forms.Label label6;
 	}
 }
 
