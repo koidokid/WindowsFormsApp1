@@ -43,7 +43,12 @@ namespace WindowsFormsApp1
 
 		private void label6_Click(object sender, EventArgs e)
 		{
+			Console.WriteLine("good");
+		}
 
+		private void label7_Click(object sender, EventArgs e)
+		{
+			Console.WriteLine("good");
 		}
 	}
 }
