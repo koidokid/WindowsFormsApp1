@@ -35,5 +35,10 @@ namespace WindowsFormsApp1
 				this.listView1.Items.Remove(item);
 			}
 		}
+
+		private void label5_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
